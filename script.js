@@ -14,7 +14,7 @@ module.exports = new Script({
     start: {
         receive: (bot) => {
             return bot.say('Hi ! Would you like to talk to the Support team or would you like to register for a tournament ?')
-            return bot.say('Type 'REGISTER' to Register or 'SUPPORT' for talking to our Support')
+                .then(() => bot.say('Type \'REGISTER\' to Register or \'SUPPORT\' for talking to our Support'))
                 .then(() => 'speak');
         }
     },
@@ -26,22 +26,22 @@ module.exports = new Script({
 
             function updateSilent() {
                 switch (upperText) {
-                    case "CONNECT ME":
-                        return bot.setProp("silent", true);
-                    case "DISCONNECT":
-                        return bot.setProp("silent", false);
+                    case 'CONNECT ME':
+                        return bot.setProp('silent', true);
+                    case 'DISCONNECT':
+                        return bot.setProp('silent', false);
                     default:
                         return Promise.resolve();
                 }
             }
 
             function getSilent() {
-                return bot.getProp("silent");
+                return bot.getProp('silent');
             }
 
             function processMessage(isSilent) {
                 if (isSilent) {
-                    return Promise.resolve("speak");
+                    return Promise.resolve('speak');
                 }
 
                 if (!_.has(scriptRules, upperText)) {
