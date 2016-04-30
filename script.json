@@ -1,5 +1,8 @@
 {
-    "HELLO": "WTF %[Tell her](postback:twitter)",
+    "REGISTER": "Which tournament do you want to register for ?[Streak 1v1 Solo Mid (Dota 2)](postback:website)[Epulze 1v1 Solo Mid (Dota 2)](postback:website)",
+    "SUPPORT": "Sure ! Leave a message so that I can connect you to them :)[Reply](postback:website)",
+    "REPLY": "I have forwarded your message. They will be with you shortly(Usually 2Hrs). Thanks for coming-by"
+    "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
     "TELL HER": "Let's tweet @ Esther so she knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Esther](http://bit.ly/estherbot-tweet)",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
