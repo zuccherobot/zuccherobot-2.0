@@ -14,6 +14,7 @@ module.exports = new Script({
     start: {
         receive: (bot) => {
             return bot.say('Hi ! Would you like to talk to the Support team or would you like to register for a tournament ?')
+            return bot.say('Type 'REGISTER' to Register or 'SUPPORT' for talking to our Support')
                 .then(() => 'speak');
         }
     },
