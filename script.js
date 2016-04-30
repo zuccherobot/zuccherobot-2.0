@@ -45,7 +45,7 @@ module.exports = new Script({
                 }
 
                 if (!_.has(scriptRules, upperText)) {
-                    return bot.say(`I am still in Beta. So there might be a few issues. I didn't understand that`).then(() => 'speak');
+                    return bot.say(`I am still in Beta. So there might be a few issues. I didn't understand that. Type \'REGISTER\' to Register or \'SUPPORT\' for talking to our Support`).then(() => 'speak');
                 }
 
                 var response = scriptRules[upperText];
