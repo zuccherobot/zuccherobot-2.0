@@ -2,8 +2,6 @@
     "REGISTER": "Which tournament do you want to register for ? %[Streak 1v1 Solo Mid (Dota 2)](postback:streak) %[Epulze 1v1 Solo Mid (Dota 2)](postback:epulze)",
     "SUPPORT": "Sure ! Leave a message so that I can connect you to them :) %[Reply](postback:support)",
     "REPLY": "I have forwarded your message. They will be with you shortly(Usually 2Hrs). Thanks for coming-by"
-    "STREAK 1V1 SOLO MID (DOTA 2)": "Sure. I will get you there : %[Register Now](https://valiantgaming.in/streak-tournament.htm#Register)",
-    "EPULZE 1V1 SOLO MID (DOTA 2)": "Sorry but the registrations are not yet open. Please check back later",
     "CONNECT ME": "",
     "DISCONNECT": "Roger that, ValiantBot is back."
 }
