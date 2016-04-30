@@ -2,7 +2,6 @@
     "REGISTER": "Which tournament do you want to register for ?[Streak 1v1 Solo Mid (Dota 2)](postback:twitter)[Epulze 1v1 Solo Mid (Dota 2)](postback:website)",
     "SUPPORT": "Sure ! Leave a message so that I can connect you to them :)[Reply]",
     "REPLY": "I have forwarded your message. They will be with you shortly(Usually 2Hrs). Thanks for coming-by"
-    //"Streak 1v1 Solo Mid (Dota 2)": "Sure. I will get you there : %[Register Now](https://valiantgaming.in/streak-tournament.htm#Register)",//
     "Epulze 1v1 Solo Mid (Dota 2)": "Sorry but the registrations are not yet open. Please check back later",
     "I LOVE YOU": "Awh, shucks! I love you too!",
     "CONNECT ME": "",
